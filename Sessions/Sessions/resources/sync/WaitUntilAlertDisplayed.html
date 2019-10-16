@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>WaitUntilAlertisDisplayed</title>
+	</head>
+	<body>
+		<h2>WaitUntilAlertisDisplayed</h2>
+		<fieldset>
+			<legend>WaitUntilAlertisDisplayed</legend>
+			<p>Click the button to display a ConfirmAlert</p>
+			<button onclick="setTimeout(confirmAlert,10000);">Click</button>
+			<p id="confirmAlert"></p>
+				<script>
+				function confirmAlert(){
+					var message;
+					var status = confirm("Confirm Alert");
+					if (status==true){
+				 		message="You Clicked on OK!";
+				 	}else{
+				 		message="You Clicked on Cancel!";
+				 	}
+					document.getElementById("confirmAlert").innerHTML=message;
+				}
+			</script>
+		</fieldset>
+	</body>
+</html>

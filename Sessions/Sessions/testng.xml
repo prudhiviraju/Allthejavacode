@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Gmail" parallel="tests">
+	<test name="TestScriptC">
+	<parameter name="UserName" value="mercury"></parameter>
+	<parameter name="Password" value="mercury"></parameter>
+	<parameter name="FirstName" value="scott"></parameter>
+	<parameter name="LastName" value="tiger"></parameter>
+		<classes>
+			<class name="com.automation.mq.TestScript1" />
+		</classes>
+	</test>
+	
+	
+</suite> 

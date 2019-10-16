@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>ConfirmAlert</title>
+</head>
+<body>
+<h2>ConfirmAlert</h2>
+<fieldset>
+<legend>Confirm Alert</legend>
+<p>Click the button to display a ConfirmAlert</p>
+<button onclick="confirmAlert()">Click on me</button>
+<p id="confirmAlert"></p>
+<script>
+function confirmAlert()
+{
+var message;
+var status;
+for(var index=0;index<10;index++){
+status = confirm("Confirm Alert");
+}
+if(status==true){
+message="You Clicked on OK!";
+document.getElementById("confirmAlert").innerHTML=message;
+}else{
+message="You Clicked on Cancel!";
+document.getElementById("confirmAlert").innerHTML=message;
+}
+}
+</script>
+</fieldset>
+</body>
+</html>

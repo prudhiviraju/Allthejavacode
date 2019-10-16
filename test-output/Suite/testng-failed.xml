@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <parameter name="password" value="YpasUMER"/>
+    <parameter name="browser" value="ie"/>
+    <parameter name="url" value="https://online.actitime.com/civicon/"/>
+    <parameter name="username" value="prudhiviraju73@gmail.com"/>
+    <classes>
+      <class name="testngxmlfile.Datapassingxml">
+        <methods>
+          <include name="passingdata" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testngxmlfile.Datapassingxml -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

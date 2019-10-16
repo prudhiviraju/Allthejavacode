@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>WaitUntilTextFieldDisplayed</title>
+	</head>
+	<body>
+		<fieldset>
+			<legend>WaitUntilTextFieldDisplayed</legend>
+				FirstName:<input type="text" id="firstName"/><p>
+				LastName:<input type="text" id="lastName" hidden="true" displayed ="false"/>
+				<p>LastName will be displayed after some time:</p>
+				<p id="displayMessage"></p>
+				<script>
+					var myVar = setInterval(disableElement, 10000);
+					function disableElement() {
+					    document.getElementById("lastName").hidden = false;
+					}
+				</script>
+		</fieldset>
+	</body>
+</html>

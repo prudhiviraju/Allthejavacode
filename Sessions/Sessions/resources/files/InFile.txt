@@ -1,0 +1,25 @@
+package com.automation.coreJava.files;
+
+import java.io.FileInputStream;
+
+import com.automation.selenium.utils.ApplicationConstants;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		FileInputStream fileInputStream = null;
+		try {
+			fileInputStream = new FileInputStream(ApplicationConstants.inFilePath);
+			int text = fileInputStream.read();
+			while (text != -1) {
+				System.out.print((char) text);
+				text = fileInputStream.read();
+			}
+			fileInputStream.close();
+		} catch (Exception exception) {
+			System.out.println(exception.toString());
+		}
+
+	}
+
+}

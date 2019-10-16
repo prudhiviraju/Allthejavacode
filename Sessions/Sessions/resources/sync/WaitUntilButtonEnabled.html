@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>WaitUntilButtonEnabled</title>
+	</head>
+	<body>
+		<fieldset>
+			<legend>WaitUntilButtonEnabled</legend>
+			<input type="button" id="btn01" disabled ="true" value="Search" onclick="displayMessage();">
+			<p>Button 'Search' will be enabled:</p>
+			<p id="displayMessage"></p>
+			<script>
+				var myVar = setInterval(disableElement, 5000);
+				function disableElement() {
+				    document.getElementById("btn01").disabled = false;
+				}
+			</script>
+			<script>
+				function displayMessage()
+				{
+				message="You Clicked on Search Button!";
+				document.getElementById("displayMessage").innerHTML=message;
+				}
+			</script>
+		</fieldset>
+	</body>
+</html>

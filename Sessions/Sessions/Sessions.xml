@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sessions">
+
+	<parameter name="browser" value="Chrome"></parameter>
+
+	<test name="Example1">
+		<classes>
+			<class name="com.automation.testNG.Example1" />
+		</classes>
+	</test>
+
+	<test name="Example2">
+		<classes>
+			<class name="com.automation.testNG.Example2" />
+		</classes>
+	</test>
+
+	<test name="Example3">
+		<classes>
+			<class name="com.automation.testNG.Example3" />
+		</classes>
+	</test>
+
+	<test name="Example4">
+		<classes>
+			<class name="com.automation.testNG.Example4" />
+		</classes>
+	</test>
+
+	<test name="Example5">
+		<classes>
+			<class name="com.automation.testNG.Example5" />
+		</classes>
+	</test>
+
+	<test name="Example6">
+		<classes>
+			<class name="com.automation.testNG.Example6" />
+		</classes>
+	</test>
+
+	<test name="Example7">
+		<classes>
+			<class name="com.automation.testNG.Example7" />
+		</classes>
+	</test>
+
+	<test name="Example8">
+		<classes>
+			<class name="com.automation.testNG.Example8" />
+		</classes>
+	</test>
+
+	<test name="Example9">
+		<parameter name="UserName" value="mercury"></parameter>
+		<parameter name="Password" value="mercury"></parameter>
+		<parameter name="FirstName" value="scott"></parameter>
+		<parameter name="LastName" value="tiger"></parameter>
+		<classes>
+			<class name="com.automation.testNG.Example9" />
+		</classes>
+	</test>
+
+	<test name="Example10">
+		<classes>
+			<class name="com.automation.testNG.Example10" />
+		</classes>
+	</test>
+	
+		<test name="Example10_S">
+			<groups>
+				<run>
+					<include name="Smoke"></include>
+				</run>
+			</groups>
+			<classes>
+				<class name="com.automation.testNG.Example10" />
+			</classes>
+		</test>
+	
+		<test name="Example10_R">
+			<groups>
+				<run>
+					<include name="Regression"></include>
+				</run>
+			</groups>
+			<classes>
+				<class name="com.automation.testNG.Example10" />
+			</classes>
+		</test>
+
+	<test name="Example11">
+		<classes>
+			<class name="com.automation.testNG.Example11" />
+		</classes>
+	</test>
+	
+	<test name="Example12">
+		<classes>
+			<class name="com.automation.testNG.Example12" />
+		</classes>
+	</test>
+
+</suite>

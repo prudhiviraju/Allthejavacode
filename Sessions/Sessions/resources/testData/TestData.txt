@@ -1,0 +1,4 @@
+TestScriptName|UserName|Password
+Example6|mercury|mercury
+Example6|scott|tiger
+Example6|tiger|scott
