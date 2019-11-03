@@ -2,3 +2,12 @@
 2019-10-05 11:04:29,494  INFO [main] Log:25 - maximize the window
 2019-10-05 11:04:43,761  INFO [main] Log:31 - opened the guru page
 2019-10-05 11:04:44,108  INFO [main] Log:34 - scrolling the webpage
+2019-10-21 11:39:48,365  INFO [main] Log:22 - chrome opened
+2019-10-21 11:39:49,908  INFO [main] Log:25 - maximize the window
+2019-10-21 11:41:11,119  INFO [main] Log:31 - opened the guru page
+2019-10-21 11:41:11,238  INFO [main] Log:34 - scrolling the webpage
+2019-10-23 12:28:34,235  INFO [main] Propertyfile:29 - connecting the propertyfile
+2019-10-23 12:28:34,259  INFO [main] Propertyfile:36 - opening the browser
+2019-10-23 12:28:42,153  INFO [main] Propertyfile:48 - using property file loading the data
+2019-10-23 12:29:01,668  INFO [main] Propertyfile:54 - taing the screenshot
+2019-10-23 12:29:02,469  INFO [main] Propertyfile:62 - close the browser

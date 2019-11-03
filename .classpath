@@ -39,5 +39,7 @@
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Selenium/selenium-htmlunit-driver-2.9.0.jar/selenium-htmlunit-driver-2.9.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Selenium/log4j.jar/log4j.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Selenium/htmlunit-driver-2.36.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Selenium/Extentreport/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Selenium/Extentreport/extentreports-2.40.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

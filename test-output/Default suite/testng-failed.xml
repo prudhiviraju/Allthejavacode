@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="actionclass.Action1">
+      <class name="notesprograms.TestNg">
         <methods>
-          <include name="razz"/>
+          <include name="login"/>
+          <include name="teardown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- actionclass.Action1 -->
+      </class> <!-- notesprograms.TestNg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
